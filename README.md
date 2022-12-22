@@ -1,5 +1,10 @@
 # projects
 # The Game of Hog
+
+
+![image](https://user-images.githubusercontent.com/115208621/209043601-c6de0510-3c0f-4521-a132-70f6e5f3214b.png)
+
+
 In Hog, two players alternate turns trying to be the first to end a turn with at least GOAL total points, 
 where GOAL defaults to 100. On each turn, the current player chooses some number of dice to roll, up to 10. 
 That player's score for the turn is the sum of the dice outcomes. However, a player who rolls too many dice risks:
@@ -14,6 +19,21 @@ and the tens digit refers to the second-rightmost digit.
 3. Square Swine. After a player gains points for their turn, if the resulting score is a perfect square, 
 then increase their score to the next higher perfect square. 
 A perfect square is any integer n where n = d * d for some integer d.
+
+
+
+# Interface
+
+
+
+
+
+
+
+
+
+
+
 
 # Yelp Maps
 In this project, you will create a visualization of restaurant ratings using machine learning and the Yelp academic dataset. 
@@ -41,6 +61,8 @@ proj1.ok: The ok configuration file
 tests: A directory of tests used by ok
 users: A directory of user files
 visualize: A directory of tools for drawing the final visualization
+
+
 
 # Movie Classification
 You will build a classifier that guesses whether a movie is romance or action, using only the numbers of times words appear in the movies's screenplay. 
